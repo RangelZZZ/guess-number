@@ -1,3 +1,4 @@
+'use strict';
 const CompareNumbers = require('./compare-numbers');
 const GenerateAnswer = require('./answer-generator');
 
@@ -13,6 +14,7 @@ function generate(){
 
     return result;
 }
+
 
 exports.compare = compare;
 exports.generate = generate;
